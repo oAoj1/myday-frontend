@@ -1,0 +1,32 @@
+.tituloPrioridade h1{
+    font-style: italic;
+}
+
+.listaPrioridade{
+    border-top: 1px solid #ccc;
+    list-style-type: none;
+}
+
+.listaPrioridade li{
+    margin: 0.5rem 0;
+    text-transform: capitalize;
+    background-color: #000;
+    color: var(--branco3);
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid var(--branco7);
+}
+
+.descricaoTarefa{
+    display: flex;
+    align-items: center;
+}
+
+.descricaoTarefa svg{
+    margin-right: 0.25rem;
+}
+
+.descricaoTarefa p{
+    font-style: italic;
+    color: var(--branco5);
+}

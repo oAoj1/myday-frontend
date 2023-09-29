@@ -1,0 +1,152 @@
+section{
+    display: grid;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.tituloTarefa h1{
+    font-size: 5em;
+    text-align: center;
+}
+
+.tituloTarefa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloTarefa button{
+    margin-left: 1rem;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0.25rem;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid var(--branco5);
+    border-radius: 5px;
+}
+
+.tituloTarefa button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.tituloTarefa button:nth-of-type(2){
+    color: #000;
+    background-color: #ff0000;
+}
+
+.listaTarefas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pendentes,
+.concluidas{
+    padding: 1rem;
+    margin: 0 1rem;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: var(--branco2);
+}
+
+.pendentes li,
+.concluidas li{
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background-color: var(--branco1);
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+
+.pendentes h4,
+.concluidas h4{
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+
+.pendentes h5,
+.concluidas h5{
+    font-size: 1.15em;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.tituloPendentes > h2,
+.tituloConcluidas > h2{
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+
+.tituloPendentes,
+.tituloConcluidas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloConcluidas h2,
+.tituloPendentes h2{
+    margin: 0 0.5rem;
+}
+
+.tituloPendentes svg,
+.tituloConcluidas svg{
+    width: 40px;
+    height: 40px;
+}
+
+.concluidas li{
+    background-color: #7fff00;
+}
+
+.pendentes .tarefaPrioridade{
+    background-color:#5117e6 ;
+    color: var(--branco3);
+}
+
+.concluidas li .opcoes,
+.pendentes li .opcoes{
+    padding: 1rem 0 0.25rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.concluidas li .opcoes svg,
+.pendentes li .opcoes svg{
+    width: 25px;
+    height: 25px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.concluidas li .opcoes svg:hover,
+.pendentes li .opcoes svg:hover{
+    transform: translateY(-2px);
+}
+
+.opcoesEdicao svg:hover,
+.opcoesMais svg:hover{
+    transform: translateY(-3px);
+}
+
+.opcoesEdicao svg,
+.opcoesMais svg{
+    width: 20px;
+    height: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.opcoesMais{
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcoesEdicao svg{
+    color: #000;
+}
+
+.tarefaPrioridade svg{
+    color: #fff;
+}

@@ -1,0 +1,19 @@
+.diaDataContainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.diaDataContainer h3{
+    font-size: 1.75em;
+    font-weight: normal;
+    padding: 0 0.5rem;
+}
+
+.periodoContainer{
+    text-align: center;
+}
+
+.periodoContainer h2{
+    font-size: 5em;
+}

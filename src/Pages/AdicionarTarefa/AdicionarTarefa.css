@@ -1,0 +1,57 @@
+.adicionandoTarefaForm{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tituloAdicionarTarefa{
+    display: flex;
+    align-items: center;
+}
+
+.tituloAdicionarTarefa h1{
+    font-size: 4em;
+    margin: 0 0 1rem 0;
+}
+
+.tituloAdicionarTarefa .voltar{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.tituloAdicionarTarefa .voltar svg{
+    width: 20px;
+    height: 20px;
+}
+
+.tituloAdicionarTarefa .voltar a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #000;
+}
+
+.adicionandoTarefaForm input,
+.adicionandoTarefaForm select{
+    width: 300px;
+    text-transform: capitalize;
+    font-size: 2em;
+    padding: 0.25rem;
+    outline: 0;
+    margin: 0.25rem 0 0 0;
+    border: 1px solid #cccc;
+}
+
+.adicionandoTarefaForm button{
+    font-size: 2em;
+    margin: 1rem 0 0 0;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 3px;
+    outline: 0;
+    border: 1px solid #000;
+    padding: 0.25rem;
+}

@@ -1,0 +1,49 @@
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+    border-bottom: 2px solid #cccc;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+header .tituloHeader{
+    display: flex;
+    align-items: center;
+}
+
+header .tituloHeader svg{
+    width: 70px;
+    height: 70px;
+}
+
+header .menuHeader{
+    display: flex;
+    list-style-type: none;
+}
+
+header .menuHeader li{
+    margin: 0 1rem;
+}
+
+header .menuHeader li button{
+    text-transform: capitalize;
+    font-size: 1.5em;
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    padding: 0.25rem;
+}
+
+header .menuHeader li button:hover{
+    color: #ccc;
+    transform: translateY(-3px);
+    transition: 0.1s;
+}
+
+header .menuHeader li button:active{
+    transform: translateY(4px);
+}
